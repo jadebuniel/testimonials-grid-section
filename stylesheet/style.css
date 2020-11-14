@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: #ecf2f8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
+.grid-container {
+  padding: 5rem 1rem;
+  min-width: 300px;
+}
+
+.grid-container > div {
+  -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.grid-container .clifford {
+  background: #7541c8;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.grid-container .clifford .quote {
+  position: relative;
+  z-index: 0;
+}
+
+.grid-container .clifford .quote img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.grid-container .clifford .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.grid-container .clifford .header .img-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #cfcfcf;
+}
+
+.grid-container .clifford .header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container .clifford .header .text-container .name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ecf2f8;
+}
+
+.grid-container .clifford .header .text-container .description {
+  color: rgba(236, 242, 248, 0.5);
+}
+
+.grid-container .clifford .highlights {
+  max-width: 300px;
+  color: white;
+  font-size: 1.4rem;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container .clifford .the-rest {
+  color: rgba(236, 242, 248, 0.7);
+  line-height: 1.5;
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.grid-container .walters {
+  background: #48556a;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.grid-container .walters .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.grid-container .walters .header .img-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #cfcfcf;
+}
+
+.grid-container .walters .header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container .walters .header .text-container .name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ecf2f8;
+}
+
+.grid-container .walters .header .text-container .description {
+  color: rgba(236, 242, 248, 0.5);
+}
+
+.grid-container .walters .highlights {
+  max-width: 300px;
+  color: white;
+  font-size: 1.4rem;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container .walters .the-rest {
+  color: rgba(236, 242, 248, 0.7);
+  line-height: 1.5;
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.grid-container .harmon {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.grid-container .harmon .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.grid-container .harmon .header .img-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #cfcfcf;
+}
+
+.grid-container .harmon .header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container .harmon .header .text-container .name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #48556a;
+}
+
+.grid-container .harmon .header .text-container .description {
+  color: rgba(72, 85, 106, 0.5);
+}
+
+.grid-container .harmon .highlights {
+  max-width: 300px;
+  color: #19212e;
+  font-size: 1.4rem;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container .harmon .the-rest {
+  color: rgba(72, 85, 106, 0.7);
+  line-height: 1.5;
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.grid-container .abrams {
+  background: #19212e;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.grid-container .abrams .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.grid-container .abrams .header .img-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #cfcfcf;
+}
+
+.grid-container .abrams .header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container .abrams .header .text-container .name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ecf2f8;
+}
+
+.grid-container .abrams .header .text-container .description {
+  color: rgba(236, 242, 248, 0.5);
+}
+
+.grid-container .abrams .highlights {
+  max-width: 300px;
+  color: white;
+  font-size: 1.4rem;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container .abrams .the-rest {
+  color: rgba(236, 242, 248, 0.7);
+  line-height: 1.5;
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.grid-container .whittle {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.grid-container .whittle .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  z-index: 2;
+  position: relative;
+}
+
+.grid-container .whittle .header .img-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #cfcfcf;
+}
+
+.grid-container .whittle .header .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container .whittle .header .text-container .name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #48556a;
+}
+
+.grid-container .whittle .header .text-container .description {
+  color: rgba(72, 85, 106, 0.5);
+}
+
+.grid-container .whittle .highlights {
+  max-width: 300px;
+  color: #19212e;
+  font-size: 1.39rem;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.grid-container .whittle .the-rest {
+  color: rgba(72, 85, 106, 0.7);
+  line-height: 1.5;
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.grid-container .clifford:hover,
+.grid-container .walters:hover,
+.grid-container .whittle:hover,
+.grid-container .harmon:hover,
+.grid-container .abrams:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1.1fr 1fr;
+        grid-template-rows: 1.1fr 1fr;
+        grid-template-areas: "clifford clifford walters whittle" "harmon abrams abrams whittle";
+    grid-gap: 2rem;
+  }
+  .grid-container .clifford {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: clifford;
+    margin-bottom: 0;
+    max-width: 1000px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .grid-container .clifford .highlights {
+    max-width: 100%;
+  }
+  .grid-container .walters {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: walters;
+    margin-bottom: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .grid-container .whittle {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 4;
+    grid-area: whittle;
+    margin-bottom: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    padding-top: 2.3rem;
+    padding-bottom: 2.5rem;
+  }
+  .grid-container .harmon {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: harmon;
+    margin-bottom: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .grid-container .harmon .highlights {
+    font-size: 1.5rem;
+  }
+  .grid-container .abrams {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-area: abrams;
+    margin-bottom: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .grid-container .abrams .highlights {
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .grid-container .abrams .the-rest {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
