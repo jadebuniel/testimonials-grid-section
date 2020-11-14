@@ -41,8 +41,9 @@ body {
 
 .grid-container .clifford .quote img {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -30px;
+  right: -10px;
+  height: 120px;
 }
 
 .grid-container .clifford .header {
@@ -246,7 +247,7 @@ body {
   width: 40px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid #cfcfcf;
+  border: 2px solid #7541c8;
 }
 
 .grid-container .abrams .header .img-container img {
@@ -373,6 +374,9 @@ body {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  .grid-container .clifford > .quote > img {
+    right: 5rem;
   }
   .grid-container .clifford .highlights {
     max-width: 100%;
